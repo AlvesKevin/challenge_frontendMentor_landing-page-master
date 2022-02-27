@@ -1,0 +1,380 @@
+html body{
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    text-align: center;
+}
+
+a {
+    color: hsl(228, 45%, 44%);
+}
+
+.background{
+    display: flex;
+    width: 100%;
+    height: 945px;
+    background-color: hsl(188, 61%, 84%);
+}
+
+.logo{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.illustration1{
+    position: absolute;
+    top: 170px;
+    left: 800px;
+    max-width: 48%;
+    height: auto;
+}
+
+.boutonStartedForFree{
+    position: absolute;
+    top: 570px;
+    left: 100px;
+    width: 260px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: hsl(322, 100%, 66%);
+    text-align: center;
+    text-decoration: none;
+}
+
+.boutonStartedForFree:hover{
+    background-color: hsl(330, 100%, 73%);;
+    text-decoration: none;
+}
+
+.boutonTryItFree{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    width: 260px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.boutonTryItFree:hover{
+    background-color: #e0d3d3;
+    text-decoration: none;
+}
+
+#pTIF{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    margin-top: 6%;
+}
+
+#pSTRF{
+    font-size: 18px;
+    font-weight: 595;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-top: 6%;
+}
+
+#pSTRF2{
+    font-size: 18px;
+    font-weight: 595;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-top: 6%;
+}
+
+.paragraphe1{
+    position: absolute;
+    font-size: 40px;
+    text-align: start;
+    font-weight: 600;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    top: 250px;
+    left: 100px;
+}
+
+.paragraphe2{
+    position: absolute;
+    font-size: 18px;
+    text-align: start;
+    font-weight: 700;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    top: 430px;
+    left: 100px;
+}
+
+.deuxiemePage{
+    display: flex;
+    width: 100%;
+    height: 945px;
+    background-color: white;
+}
+
+#case1{
+    position: absolute;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 90%;
+    height: 550px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 1px 5px 1px rgba(178, 175, 175, 0.7);
+}
+
+#case2{
+    position: absolute;
+    display: flex;
+    margin-top: 750px;
+    margin-left: 100px;
+    width: 90%;
+    height: 550px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 1px 5px 1px rgba(178, 175, 175, 0.7);
+}
+
+#case3{
+    position: absolute;
+    display: flex;
+    margin-top: 1350px;
+    margin-left: 100px;
+    width: 90%;
+    height: 550px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 1px 5px 1px rgba(178, 175, 175, 0.7);
+}
+
+#case4{
+    position: absolute;
+    display: flex;
+    margin-top: 2050px;
+    margin-left: 400px;
+    width: 60%;
+    height: 350px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 1px 5px 1px rgba(178, 175, 175, 0.7);
+}
+
+.boutonStartedForFreeCase4{
+    position: absolute;
+    top: 170px;
+    left: 400px;
+    width: 300px;
+    height: 70px;
+    border-radius: 40px;
+    background-color: hsl(322, 100%, 66%);
+    text-align: center;
+    text-decoration: none;
+}
+
+.titreCase4{
+    position: absolute;
+    top: 40px;
+    left: 270px;
+    font-size: 35px;
+    text-align: start;
+    font-weight: 600;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titreCase{
+    position: absolute;
+    top: 140px;
+    left: 150px;
+    font-size: 35px;
+    text-align: start;
+    font-weight: 600;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.texteCase{
+    position: absolute;
+    font-size: 25px;
+    text-align: start;
+    font-weight: 400;
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+    top: 230px;
+    left: 150px;
+}
+.titreCase2{
+    position: absolute;
+    top: 140px;
+    right: 420px;
+    font-size: 35px;
+    text-align: start;
+    font-weight: 600;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.texteCase2{
+    position: absolute;
+    font-size: 25px;
+    text-align: start;
+    font-weight: 400;
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+    top: 230px;
+    right: 150px;
+}
+
+#imgCase1{
+    position: absolute;
+    width: 30%;
+    top: 50px;
+    right: 40px;
+}
+
+#imgCase2{
+    position: absolute;
+    width: 30%;
+    top: 50px;
+    left: 150px;
+}
+
+#imgCase3{
+    position: absolute;
+    width: 30%;
+    top: 50px;
+    right: 40px;
+}
+
+.finPage{
+    position: absolute;
+    top: 3200px;
+    display: flex;
+    width: 100%;
+    height: 545px;
+    background-color: hsl(192, 100%, 9%);
+}
+
+.logoFinPage{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    filter: invert(100%);
+}
+
+.logoLocation{
+    position: absolute;
+    width: 1%;
+    top: 300px;
+    left: 100px;
+}
+
+.texteLocation{
+    position: absolute;
+    font-size: 15px;
+    top: 290px;
+    left: 140px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.logoTelephone{
+    position: absolute;
+    width: 1%;
+    top: 370px;
+    left: 100px;
+}
+
+.texteTelephone{
+    position: absolute;
+    font-size: 15px;
+    top: 355px;
+    left: 140px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.logoEmail{
+    position: absolute;
+    width: 1%;
+    top: 440px;
+    left: 100px;
+}
+
+.texteEmail{
+    position: absolute;
+    font-size: 15px;
+    top: 425px;
+    left: 140px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.about{
+    position: absolute;
+    font-size: 15px;
+    top: 290px;
+    left: 700px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.whatWeDo{
+    position: absolute;
+    font-size: 15px;
+    top: 290px;
+    left: 850px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.FAQ{
+    position: absolute;
+    font-size: 15px;
+    top: 290px;
+    left: 1000px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.career{
+    position: absolute;
+    font-size: 15px;
+    top: 390px;
+    left: 700px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.blog{
+    position: absolute;
+    font-size: 15px;
+    top: 390px;
+    left: 850px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.contactUs{
+    position: absolute;
+    font-size: 15px;
+    top: 390px;
+    left: 1000px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.copyright{
+    position: absolute;
+    font-size: 15px;
+    top: 440px;
+    right: 100px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
