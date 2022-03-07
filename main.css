@@ -177,6 +177,11 @@ a {
     text-decoration: none;
 }
 
+.boutonStartedForFreeCase4:hover{
+    background-color: hsl(330, 100%, 73%);;
+    text-decoration: none;
+}
+
 .titreCase4{
     position: absolute;
     top: 40px;
@@ -325,6 +330,11 @@ a {
     font-family: "Open Sans", sans-serif;
 }
 
+.about:hover{
+    background-color: white;
+    text-decoration: none;
+}
+
 .whatWeDo{
     position: absolute;
     font-size: 15px;
@@ -332,6 +342,11 @@ a {
     left: 850px;
     color: white;
     font-family: "Open Sans", sans-serif;
+}
+
+.whatWeDo:hover{
+    background-color: white;
+    text-decoration: none;
 }
 
 .FAQ{
@@ -343,6 +358,11 @@ a {
     font-family: "Open Sans", sans-serif;
 }
 
+.FAQ:hover{
+    background-color: white;
+    text-decoration: none;
+}
+
 .career{
     position: absolute;
     font-size: 15px;
@@ -350,6 +370,11 @@ a {
     left: 700px;
     color: white;
     font-family: "Open Sans", sans-serif;
+}
+
+.career:hover{
+    background-color: white;
+    text-decoration: none;
 }
 
 .blog{
@@ -361,6 +386,11 @@ a {
     font-family: "Open Sans", sans-serif;
 }
 
+.blog:hover{
+    background-color: white;
+    text-decoration: none;
+}
+
 .contactUs{
     position: absolute;
     font-size: 15px;
@@ -368,6 +398,11 @@ a {
     left: 1000px;
     color: white;
     font-family: "Open Sans", sans-serif;
+}
+
+.contactUs:hover{
+    background-color: white;
+    text-decoration: none;
 }
 
 .copyright{
